@@ -1,0 +1,45 @@
+.container {
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    margin-top: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+}
+
+.regBTN,
+.logBTN {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.regBTN {
+    background-color: #0E6C4D;
+}
+
+.logBTN {
+    background-color: red;
+}
+
+.regBTN:active,
+.logBTN:active {
+    transform: translateY(3px);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
